@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/dist.css">
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <title>Kerala Tourism Website</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Kerala Tourism</a>
+          <a class="navbar-brand" href="index.html">Kerala Tourism</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -16,16 +17,19 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Districts.html">Districts</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Main Attractions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" > Login </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sign Up.html">Sign up</a>
               </li>
             </ul>
           </div>
@@ -41,13 +45,16 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+            <div class="carousel-item active" style="background: fixed;">
+              <img src="images/slider3.jpg" alt="slider image 1">
               <div class="carousel-caption">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>WELCOME TO KERALA <BR></BR> THE GOD'S OWN COUNTRY</h1>
+                <BR></BR>
+                <p>STOP. Breathe. Slow down. Embrace life. It’s time for Kerala!</p>
               </div>
             </div>
             <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+              <img src="images/slider2.jpg" alt="slider image 2">
               <div class="carousel-caption">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
@@ -70,13 +77,28 @@
           </button>
         </div>
       </header>
-      
+  
       <!-- Page Content -->
       <section class="py-5">
         <div class="container">
-          <h1 class="fw-light">Full Page Image Slider</h1>
-          <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images
-            in this snippet are from <a href="https://unsplash.com">Unsplash</a>, taken by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a>!</p>
+          <h1 class="display-4">Main Tourist Attractions</h1>
+          <div class="container2">
+            <div class="box">
+              <img src="images/slider1.jpg">
+              <span>Kozhikode</span>
+            </div>
+            <div class="box">
+              <img src="https://source.unsplash.com/1000x802">
+              <span>Wayanad</span>
+            </div>
+            <div class="box">
+              <img src="https://source.unsplash.com/1000x804">
+              <span>Idukki</span>
+            </div>
+            <div class="box">
+              <img src="https://source.unsplash.com/1000x806">
+              <span>Thrissur</span>
+            </div>
         </div>
       </section>
 </body>
